@@ -5,6 +5,7 @@ import Task1 from './tasks/Task1';
 import Task2 from './tasks/Task2';
 import Task3 from './tasks/Task3';
 import Task4 from './tasks/Task4';
+import Task5 from './tasks/Task5';
 import { useRef } from 'react';
 function App() {
   const classer=useRef();
@@ -26,7 +27,8 @@ function App() {
        <Task3 />
        <h3>Q4.Create a button that converts the forms theme to dark mode/Light mode (Dark mode: Background color Black text white)</h3>
        <Task4  changeClass={changeClass}/>
-       <h3>Q5.</h3>
+       <h3>Q5.Make 3 Checkboxes of Hobbies on submit print only selected hobbies</h3>
+       <Task5 />
       </header>
     </div>
   );

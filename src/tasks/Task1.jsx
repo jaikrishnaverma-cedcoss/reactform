@@ -13,7 +13,7 @@ function Task1() {
     return ( 
         <>
         <div className="row">
-            <textarea style={{padding:"10px"}} onChange={inpuHandler} value={input} id="" cols="30" rows="10"></textarea>
+            <textarea style={{padding:"10px"}} onChange={inpuHandler} value={input} id="" cols="30" rows="5"></textarea>
             <button className="btn btn-danger" onClick={showsdata}>Check</button>
         </div>
         <div className="row">
